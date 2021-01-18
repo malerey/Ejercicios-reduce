@@ -29,7 +29,7 @@ const numbers = [6, 1, 34, 94, 3, 17];
 
 ### 3
 * Tenemos un array llamado `notasDeTPs` con números del 1 al 10, que representan las notas de los distintos trabajos prácticos entregados por Grace Hopper en el curso de Ada.
-* Usando `reduce`, queremos calcular la nota promedio final de trabajos prácticos _(el promedio se calcula sumando todas las notas y dividiéndolo por la cantidad de notas)_.
+* Usando `reduce`, queremos calcular la nota promedio final de trabajos prácticos _(el promedio se calcula sumando todas las notas y dividiéndolo por la cantidad de notas, o dividiendo cada nota por la cantidad total y luego sumando los resultados)_.
 * Por ejemplo: Si tenemos `[7, 8, 9, 10]`, la nota final es **8.5**
 
 ```js
